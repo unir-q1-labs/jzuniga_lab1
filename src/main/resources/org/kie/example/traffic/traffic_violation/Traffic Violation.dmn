@@ -89,7 +89,7 @@
       <dmn:output id="_4E6EA760-9607-457D-9B06-5B374DF5D3D8" name="Points" typeRef="number"/>
       <dmn:rule id="_80A9C32D-700E-4D06-A256-04722F20C05E">
         <dmn:inputEntry id="_F88588E9-A9A9-46C9-8CBA-829A59E5437F">
-          <dmn:text>speed</dmn:text>
+          <dmn:text>"speed"</dmn:text>
         </dmn:inputEntry>
         <dmn:inputEntry id="_63691B8A-9620-4687-AE01-D248F19EA488">
           <dmn:text>[10..30)</dmn:text>
