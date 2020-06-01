@@ -159,14 +159,14 @@
         <kie:ComponentsWidthsExtension>
           <kie:ComponentWidths dmnElementRef="_DF0586F2-EA0F-41E2-B053-8363BFBF7291">
             <kie:width>50.0</kie:width>
-            <kie:width>100.0</kie:width>
-            <kie:width>300.0</kie:width>
+            <kie:width>109.0</kie:width>
+            <kie:width>373.0</kie:width>
           </kie:ComponentWidths>
           <kie:ComponentWidths dmnElementRef="_A005F71C-F73A-4194-8A70-377FD07AE5AB">
-            <kie:width>300.0</kie:width>
+            <kie:width>373.0</kie:width>
           </kie:ComponentWidths>
           <kie:ComponentWidths dmnElementRef="_06290A48-07F4-4F32-8EB6-6E9BFBCD54A2">
-            <kie:width>300.0</kie:width>
+            <kie:width>373.0</kie:width>
           </kie:ComponentWidths>
           <kie:ComponentWidths dmnElementRef="_636216E3-7BB3-482E-B5A8-832397E380AE">
             <kie:width>50.0</kie:width>
