@@ -54,6 +54,54 @@
     <dmn:informationRequirement id="_35D83B26-FEB1-44CC-A986-CB27DCE5C1E7">
       <dmn:requiredDecision href="#_8E54475E-B284-42D5-A7A5-D17A58533E61"/>
     </dmn:informationRequirement>
+    <dmn:decisionTable id="_B619E15B-FECC-4F4D-82DC-B63BF0DA9751" hitPolicy="UNIQUE" preferredOrientation="Rule-as-Row">
+      <dmn:input id="_D0B050FD-AD51-436C-AA4B-C8887F825F21">
+        <dmn:inputExpression id="_2CCD0E30-E9C0-4DD6-9BFA-B9B5B4A5D0B5" typeRef="number">
+          <dmn:text>Driver.Age</dmn:text>
+        </dmn:inputExpression>
+      </dmn:input>
+      <dmn:input id="_91E1B7F9-EC95-4D64-AE5E-37B1ED3496ED">
+        <dmn:inputExpression id="_419AE62C-5F85-4DC8-934F-EA91494CA060" typeRef="string">
+          <dmn:text>Driver.City</dmn:text>
+        </dmn:inputExpression>
+      </dmn:input>
+      <dmn:input id="_6F0A5E55-87F3-4585-A734-55444A101945">
+        <dmn:inputExpression id="_4EDE14A9-F5CF-469B-B2FF-1F53C475B462" typeRef="string">
+          <dmn:text>Driver.Name</dmn:text>
+        </dmn:inputExpression>
+      </dmn:input>
+      <dmn:input id="_9C9BA059-7224-4893-8670-C73A6EE87FBD">
+        <dmn:inputExpression id="_5109B5C8-D817-4D27-AE07-EB8951D2F481" typeRef="number">
+          <dmn:text>Driver.Points</dmn:text>
+        </dmn:inputExpression>
+      </dmn:input>
+      <dmn:input id="_B72DD916-A1A1-44A0-9821-942F717293C2">
+        <dmn:inputExpression id="_B177ED82-DBAA-42C3-80E9-107332498A99" typeRef="string">
+          <dmn:text>Driver.State</dmn:text>
+        </dmn:inputExpression>
+      </dmn:input>
+      <dmn:output id="_9699041B-F499-48E4-8AC1-7817405653FC" typeRef="string"/>
+      <dmn:rule id="_BC5A8CB2-00CD-4DFE-BE8C-6320F4DEEB04">
+        <dmn:inputEntry id="_902DB6F6-B894-4895-BA65-EE18802557E5">
+          <dmn:text>-</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_C3D0AF66-A54B-43FD-8A86-7933AC179694">
+          <dmn:text>-</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_588AEB2D-E319-441B-88EA-1D577F14827D">
+          <dmn:text>-</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_46615FA9-BB8D-4D1E-B6FC-5D9BFB2362C8">
+          <dmn:text>-</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_8E440F5C-9C83-45F0-A4AB-177751453D6B">
+          <dmn:text>-</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_051303DC-7E1D-49DF-BDE9-81B2A2C1803E">
+          <dmn:text></dmn:text>
+        </dmn:outputEntry>
+      </dmn:rule>
+    </dmn:decisionTable>
   </dmn:decision>
   <dmn:decision id="_8E54475E-B284-42D5-A7A5-D17A58533E61" name="Fine">
     <dmn:extensionElements/>
@@ -61,6 +109,54 @@
     <dmn:informationRequirement id="_887492ED-9B56-402B-9124-574C8222A5D9">
       <dmn:requiredInput href="#_CE8A6B98-30BA-448C-9327-C651A783F6CF"/>
     </dmn:informationRequirement>
+    <dmn:decisionTable id="_4D04CB61-61D1-432B-9D10-5621781A9E5E" hitPolicy="UNIQUE" preferredOrientation="Rule-as-Row">
+      <dmn:input id="_F954DA9A-A3C9-4C49-8A61-C50BA049FC05">
+        <dmn:inputExpression id="_CB71B659-C527-402F-B723-7A790510AB81" typeRef="number">
+          <dmn:text>Violation.Actual Speed</dmn:text>
+        </dmn:inputExpression>
+      </dmn:input>
+      <dmn:input id="_76E18E88-123C-4B58-BE69-A87623914DE8">
+        <dmn:inputExpression id="_B14B4DF3-EA6F-42A7-8E30-1C1B5A849204" typeRef="string">
+          <dmn:text>Violation.Code</dmn:text>
+        </dmn:inputExpression>
+      </dmn:input>
+      <dmn:input id="_A54DD1E3-57ED-4A27-B63C-8BF876D8475F">
+        <dmn:inputExpression id="_68955C6C-E29F-4C86-8613-F00A5C02D503" typeRef="date">
+          <dmn:text>Violation.Date</dmn:text>
+        </dmn:inputExpression>
+      </dmn:input>
+      <dmn:input id="_B2D953AC-4044-40EB-8CE0-34196D16530D">
+        <dmn:inputExpression id="_302EE3E0-53CE-43D9-9A01-83CF6A4E4F96" typeRef="number">
+          <dmn:text>Violation.Speed Limit</dmn:text>
+        </dmn:inputExpression>
+      </dmn:input>
+      <dmn:input id="_23EA0A72-0236-4DD8-B764-02FBEE078846">
+        <dmn:inputExpression id="_F3E47E76-AF1C-452A-8C45-0993E737D6FD" typeRef="string">
+          <dmn:text>Violation.Type</dmn:text>
+        </dmn:inputExpression>
+      </dmn:input>
+      <dmn:output id="_197613FA-5538-4B21-9DEF-6C24E51E0CDE" typeRef="tFine"/>
+      <dmn:rule id="_57D32434-768A-4CA3-9A8B-6117806C72B5">
+        <dmn:inputEntry id="_B1F1D0E2-9FFB-4E0B-8A88-3EB93F12BF33">
+          <dmn:text>-</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_E0039D84-C094-4979-B7A1-623E2FEF0496">
+          <dmn:text>-</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_06409619-8C60-43D5-A09A-CB6C0447C66F">
+          <dmn:text>-</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_825D699B-4671-4E06-947A-80B69E4385F2">
+          <dmn:text>-</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_797C054A-75D8-4E4F-AE4F-5BC6F0EA3061">
+          <dmn:text>-</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_257EB0C2-A82C-4C38-81D9-EB5D684EB69D">
+          <dmn:text></dmn:text>
+        </dmn:outputEntry>
+      </dmn:rule>
+    </dmn:decisionTable>
   </dmn:decision>
   <dmn:inputData id="_05B0E3E1-53DF-4680-B35B-A673F622023B" name="Driver">
     <dmn:extensionElements/>
@@ -73,7 +169,28 @@
   <dmndi:DMNDI>
     <dmndi:DMNDiagram>
       <di:extension>
-        <kie:ComponentsWidthsExtension/>
+        <kie:ComponentsWidthsExtension>
+          <kie:ComponentWidths dmnElementRef="_4D04CB61-61D1-432B-9D10-5621781A9E5E">
+            <kie:width>50.0</kie:width>
+            <kie:width>156.0</kie:width>
+            <kie:width>100.0</kie:width>
+            <kie:width>100.0</kie:width>
+            <kie:width>141.0</kie:width>
+            <kie:width>100.0</kie:width>
+            <kie:width>100.0</kie:width>
+            <kie:width>100.0</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_B619E15B-FECC-4F4D-82DC-B63BF0DA9751">
+            <kie:width>50.0</kie:width>
+            <kie:width>100.0</kie:width>
+            <kie:width>100.0</kie:width>
+            <kie:width>100.0</kie:width>
+            <kie:width>100.0</kie:width>
+            <kie:width>100.0</kie:width>
+            <kie:width>100.0</kie:width>
+            <kie:width>100.0</kie:width>
+          </kie:ComponentWidths>
+        </kie:ComponentsWidthsExtension>
       </di:extension>
       <dmndi:DMNShape id="dmnshape-_CE8A6B98-30BA-448C-9327-C651A783F6CF" dmnElementRef="_CE8A6B98-30BA-448C-9327-C651A783F6CF" isCollapsed="false">
         <dmndi:DMNStyle>
@@ -99,7 +216,7 @@
           <dmndi:StrokeColor red="0" green="0" blue="0"/>
           <dmndi:FontColor red="0" green="0" blue="0"/>
         </dmndi:DMNStyle>
-        <dc:Bounds x="305" y="57" width="100" height="50"/>
+        <dc:Bounds x="304" y="56" width="100" height="50"/>
         <dmndi:DMNLabel/>
       </dmndi:DMNShape>
       <dmndi:DMNShape id="dmnshape-_05B0E3E1-53DF-4680-B35B-A673F622023B" dmnElementRef="_05B0E3E1-53DF-4680-B35B-A673F622023B" isCollapsed="false">
@@ -117,11 +234,11 @@
       </dmndi:DMNEdge>
       <dmndi:DMNEdge id="dmnedge-_30B57189-9BC3-4F1B-B40A-453926193B91" dmnElementRef="_30B57189-9BC3-4F1B-B40A-453926193B91">
         <di:waypoint x="230" y="283"/>
-        <di:waypoint x="355" y="107"/>
+        <di:waypoint x="354" y="106"/>
       </dmndi:DMNEdge>
       <dmndi:DMNEdge id="dmnedge-_35D83B26-FEB1-44CC-A986-CB27DCE5C1E7" dmnElementRef="_35D83B26-FEB1-44CC-A986-CB27DCE5C1E7">
         <di:waypoint x="419" y="178"/>
-        <di:waypoint x="355" y="107"/>
+        <di:waypoint x="354" y="106"/>
       </dmndi:DMNEdge>
     </dmndi:DMNDiagram>
   </dmndi:DMNDI>
