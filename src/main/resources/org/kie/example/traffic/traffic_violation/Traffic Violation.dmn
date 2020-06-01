@@ -43,11 +43,11 @@
       <dmn:typeRef>number</dmn:typeRef>
     </dmn:itemComponent>
   </dmn:itemDefinition>
-  <dmn:decision id="_C07C8911-DFD0-4583-BF56-88D555B50079" name="¿Should the driver be suspended?">
+  <dmn:decision id="_C07C8911-DFD0-4583-BF56-88D555B50079" name="Should the driver be suspended?">
     <dmn:extensionElements/>
     <dmn:question>Should the driver be suspended due to points on his driver license?</dmn:question>
     <dmn:allowedAnswers>Yes, No</dmn:allowedAnswers>
-    <dmn:variable id="_249E33E0-D3D4-430F-A8E7-9F1D0E0AC992" name="¿Should the driver be suspended?" typeRef="string"/>
+    <dmn:variable id="_249E33E0-D3D4-430F-A8E7-9F1D0E0AC992" name="Should the driver be suspended?" typeRef="string"/>
     <dmn:informationRequirement id="_30B57189-9BC3-4F1B-B40A-453926193B91">
       <dmn:requiredInput href="#_05B0E3E1-53DF-4680-B35B-A673F622023B"/>
     </dmn:informationRequirement>
