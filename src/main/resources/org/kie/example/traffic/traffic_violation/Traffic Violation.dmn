@@ -112,22 +112,7 @@
     <dmn:decisionTable id="_4D04CB61-61D1-432B-9D10-5621781A9E5E" hitPolicy="UNIQUE" preferredOrientation="Rule-as-Row">
       <dmn:input id="_F954DA9A-A3C9-4C49-8A61-C50BA049FC05">
         <dmn:inputExpression id="_CB71B659-C527-402F-B723-7A790510AB81" typeRef="number">
-          <dmn:text>Violation.Actual Speed</dmn:text>
-        </dmn:inputExpression>
-      </dmn:input>
-      <dmn:input id="_76E18E88-123C-4B58-BE69-A87623914DE8">
-        <dmn:inputExpression id="_B14B4DF3-EA6F-42A7-8E30-1C1B5A849204" typeRef="string">
-          <dmn:text>Violation.Code</dmn:text>
-        </dmn:inputExpression>
-      </dmn:input>
-      <dmn:input id="_A54DD1E3-57ED-4A27-B63C-8BF876D8475F">
-        <dmn:inputExpression id="_68955C6C-E29F-4C86-8613-F00A5C02D503" typeRef="date">
-          <dmn:text>Violation.Date</dmn:text>
-        </dmn:inputExpression>
-      </dmn:input>
-      <dmn:input id="_B2D953AC-4044-40EB-8CE0-34196D16530D">
-        <dmn:inputExpression id="_302EE3E0-53CE-43D9-9A01-83CF6A4E4F96" typeRef="number">
-          <dmn:text>Violation.Speed Limit</dmn:text>
+          <dmn:text>Violation.Actual Speed - Violation.Speed Limit</dmn:text>
         </dmn:inputExpression>
       </dmn:input>
       <dmn:input id="_23EA0A72-0236-4DD8-B764-02FBEE078846">
@@ -138,15 +123,6 @@
       <dmn:output id="_197613FA-5538-4B21-9DEF-6C24E51E0CDE" typeRef="tFine"/>
       <dmn:rule id="_57D32434-768A-4CA3-9A8B-6117806C72B5">
         <dmn:inputEntry id="_B1F1D0E2-9FFB-4E0B-8A88-3EB93F12BF33">
-          <dmn:text>-</dmn:text>
-        </dmn:inputEntry>
-        <dmn:inputEntry id="_E0039D84-C094-4979-B7A1-623E2FEF0496">
-          <dmn:text>-</dmn:text>
-        </dmn:inputEntry>
-        <dmn:inputEntry id="_06409619-8C60-43D5-A09A-CB6C0447C66F">
-          <dmn:text>-</dmn:text>
-        </dmn:inputEntry>
-        <dmn:inputEntry id="_825D699B-4671-4E06-947A-80B69E4385F2">
           <dmn:text>-</dmn:text>
         </dmn:inputEntry>
         <dmn:inputEntry id="_797C054A-75D8-4E4F-AE4F-5BC6F0EA3061">
@@ -172,10 +148,7 @@
         <kie:ComponentsWidthsExtension>
           <kie:ComponentWidths dmnElementRef="_4D04CB61-61D1-432B-9D10-5621781A9E5E">
             <kie:width>50.0</kie:width>
-            <kie:width>156.0</kie:width>
-            <kie:width>100.0</kie:width>
-            <kie:width>100.0</kie:width>
-            <kie:width>141.0</kie:width>
+            <kie:width>307.0</kie:width>
             <kie:width>100.0</kie:width>
             <kie:width>100.0</kie:width>
             <kie:width>100.0</kie:width>
